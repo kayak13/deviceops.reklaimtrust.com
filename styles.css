@@ -97,15 +97,14 @@ img { display: block; max-width: 100%; height: auto; }
 
 .hero {
   width: min(1260px, calc(100% - 40px));
-  min-height: min(700px, calc(100vh - 154px));
-  max-height: 900px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: minmax(0, 0.86fr) minmax(420px, 1.14fr);
-  align-items: center;
+  align-items: start;
   gap: 32px;
-  padding: 58px 0 42px;
+  padding: 58px 0 66px;
 }
+.hero-copy { min-width: 0; }
 .eyebrow {
   margin: 0 0 14px;
   color: var(--accent-dark);
@@ -121,7 +120,7 @@ p { margin-top: 0; }
 h1 {
   max-width: 680px;
   margin-bottom: 22px;
-  font-size: clamp(3rem, 7vw, 6.6rem);
+  font-size: clamp(3rem, 6vw, 5.8rem);
   line-height: 0.94;
   letter-spacing: 0;
 }
@@ -184,7 +183,7 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   overflow: hidden;
-  margin-bottom: 70px;
+  margin-bottom: 22px;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--line);
@@ -198,7 +197,7 @@ h1 {
 }
 .proof-strip {
   width: min(1160px, calc(100% - 40px));
-  margin: -28px auto 70px;
+  margin: 0 auto 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
@@ -641,7 +640,7 @@ textarea:focus {
   }
   .proof-strip {
     width: min(100% - 28px, 1160px);
-    margin-top: -34px;
+    margin-top: 0;
   }
   .why-list div { grid-template-columns: 1fr; gap: 6px; }
   .section { padding: 62px 0; }
