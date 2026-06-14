@@ -141,6 +141,14 @@ h1 {
   margin-bottom: 18px;
   color: var(--ink);
 }
+.hero-pain {
+  max-width: 650px;
+  margin-bottom: 18px;
+  padding-left: 14px;
+  border-left: 4px solid var(--accent);
+  color: var(--ink);
+  font-weight: 720;
+}
 .hero-proof strong,
 .hero-proof span {
   display: block;
